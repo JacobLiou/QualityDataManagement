@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityDataManagement", "QualityDataManagement\QualityDataManagement.csproj", "{C7B2395C-CF20-45E4-B3F3-8FA6CB7C8E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityData.DbAccess", "QualityData.DbAccess\QualityData.DbAccess.csproj", "{3DC10B9C-F3E6-4517-8B28-15D9453A441B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityData.Service", "QualityData.Service\QualityData.Service.csproj", "{132069C2-3D39-4E94-A762-30C35C94D85E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C7B2395C-CF20-45E4-B3F3-8FA6CB7C8E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B2395C-CF20-45E4-B3F3-8FA6CB7C8E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B2395C-CF20-45E4-B3F3-8FA6CB7C8E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC10B9C-F3E6-4517-8B28-15D9453A441B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC10B9C-F3E6-4517-8B28-15D9453A441B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC10B9C-F3E6-4517-8B28-15D9453A441B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC10B9C-F3E6-4517-8B28-15D9453A441B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132069C2-3D39-4E94-A762-30C35C94D85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132069C2-3D39-4E94-A762-30C35C94D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132069C2-3D39-4E94-A762-30C35C94D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132069C2-3D39-4E94-A762-30C35C94D85E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

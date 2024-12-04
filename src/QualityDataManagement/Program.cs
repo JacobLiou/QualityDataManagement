@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using QualityData.DbAccess.Extensions;
 using QualityDataManagement.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+// 增加 BootstrapBlazor 组件
+builder.Services.AddBootstrapBlazor();
+// 增加 EFCore 数据服务
+builder.Services.AddEFCoreDataAccessServices();
 
 var app = builder.Build();
 
